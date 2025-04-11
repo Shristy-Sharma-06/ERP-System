@@ -9,7 +9,7 @@ const Login = () => {
   // 1.
   useEffect(() => {
     axios
-      .get("http://localhost:3000/api")
+      .get(`${import.meta.env.VITE_BACKEND_API_URL}`)
       .then((response) => {
         setApiData(response.data);
         console.log(apiData);
