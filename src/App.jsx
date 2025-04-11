@@ -1,9 +1,7 @@
-import { useState } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { Header, Teacher, Login, Attendance, Homework } from "./Components";
+import { Header, Teacher, Login, Attendance, Homework,Marks } from "./Components";
 
 function App() {
-  const [count, setCount] = useState(0);
 
   return (
     <>
@@ -15,6 +13,7 @@ function App() {
           <Route path="/teacher" element={<Teacher />} />
           <Route path="/attendance" element={<Attendance />} />
           <Route path="/home-work" element={<Homework />} />
+          <Route path="/marks" element={<Marks/>} />
         </Routes>
       </BrowserRouter>
     </>

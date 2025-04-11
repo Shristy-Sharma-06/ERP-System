@@ -1,51 +1,3 @@
-// import React from "react";
-// import Button from "../button";
-// import Input from "../input";
-
-// function Homework() {
-//   return (
-//     <div>
-//       <div>
-//         <img src="" alt="students" />
-//       </div>
-//       <form action="">
-//         <Input
-//           label="Class"
-//           type="text"
-//           name=" Enter Class"
-//           placeholder="Enter your email"
-//         />
-//         <Input
-//           label="Subject"
-//           type="text"
-//           name="Subject Name"
-//           placeholder="Enter Subject Name"
-//         />
-
-//         <Input
-//           label="Homework"
-//           type="text"
-//           name="Homework"
-//           placeholder="Homework"
-//         />
-//         <div className="flex flex-col">
-//             <Button type="submit" className="w-full mt-4">
-//                 Gallery
-//             </Button>
-
-//             <Button type="submit" className="w-full mt-4">
-//                 Take Photos
-//             </Button>
-//         </div>
-//         <Button type="submit" className="w-full mt-4">
-//                Submit 
-//             </Button>
-//       </form>
-//     </div>
-//   );
-// }
-
-// export default Homework;
 import React from "react";
 import Button from "../button";
 import Input from "../input";
@@ -56,9 +8,9 @@ function Homework() {
       <div className="bg-white rounded-2xl shadow-md w-full max-w-2xl p-6 md:p-10">
         <div className="mb-6">
           <img
-            src="https://classroomclipart.com/image/static7/preview2/student-thinking-homework-14-48406.jpg"
+            src="https://media.istockphoto.com/id/487583768/vector/cartoon-little-kid-reading-book.jpg?s=612x612&w=0&k=20&c=xo928M8NshfIWcTnD5Ywva7FuCGpsLDESyY51QOyIrA="
             alt="students"
-            className="w-full h-full object-cover rounded-xl"
+            className="w-full h-full object-cover"
           />
         </div>
 

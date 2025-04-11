@@ -4,7 +4,8 @@ import Profile from './Profile/Profile'
 import Teacher from './Teacher/Teacher'
 import Attendance from './Attendance/Attendance'
 import Homework from './Homework/Homework'
+import Marks from './Marks/Marks'
 import Present from './Attendance/Present'
 import Input from './input'
 import Button from './button'
-export {Header,Profile,Teacher,Login,Attendance, Input,Button, Homework}
+export {Header,Profile,Teacher,Login,Attendance, Input,Button, Homework,Marks}
